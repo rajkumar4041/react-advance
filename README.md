@@ -2,6 +2,8 @@
 
 **To Run Application
 ```
+   git clone git@github.com:rajkumar4041/react-advance.git
+   cd react-advance
    npm install
    npm run dev
 ```
