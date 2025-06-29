@@ -61,3 +61,7 @@ This project demonstrates several advanced React concepts. Below is a list of to
 9. **Render Props**
    - **What:** A technique for sharing code between components using a function as a child.
    - **Where:** `FilterTasks` uses a render prop to pass filtered tasks to `TaskListWithLogger`. (See `components/FilterTasks` and `App.tsx`).
+
+
+
+## Ai Assistant Integration with Gemini model `gemini-flash-2`
