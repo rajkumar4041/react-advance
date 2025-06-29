@@ -1,5 +1,6 @@
 import React, { startTransition, Suspense, useRef, useState } from 'react';
 import AddTaskModal, { type AddTaskModalRef } from './components/AddTaskModal';
+import AIAssistant from './components/AIAssistant';
 import Toggle from './components/CustomToggle';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import FilterTasks from './components/FilterTasks';
@@ -32,6 +33,8 @@ function App() {
 
   return (
     <div className="app">
+      {/* AI Assistant floating button and drawer (absolute, available on all pages) */}
+      <AIAssistant />
       <h1>Advanced React Task Manager</h1>
       <h3>
         A task manager built with React, TypeScript, and Tailwind CSS(practice while mastering
