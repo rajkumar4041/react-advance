@@ -6,7 +6,6 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 import FilterTasks from './components/FilterTasks';
 import TaskList from './components/TaskList';
 import withLogger from './components/withLogger';
-import { TaskProvider } from './context/TaskContext';
 import useTasks from './hooks/useTasks';
 
 const TaskStats = React.lazy(() => import('./components/TaskStats'));
